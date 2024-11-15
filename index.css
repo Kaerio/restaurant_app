@@ -109,7 +109,7 @@ h2 {
     border: 1.5px solid #DEDEDE;
 }
 
-.menu-item-btn:hover {
+.menu-item-btn:hover, .menu-item-btn:focus {
     border: 2px solid #a5a5a5;
     font-weight: 300;
 }
