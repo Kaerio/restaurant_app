@@ -91,7 +91,7 @@ function renderOrder(){
         }
     });
 
-    totalPriceEl.innerHTML = totalOrderPrice    
+    totalPriceEl.innerHTML = '$' + totalOrderPrice    
     order.style.display = orderItems.innerHTML ? "flex" : "none"
 }
 
